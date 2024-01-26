@@ -1,3 +1,6 @@
-lst = [ 1, 2,4 ,6, 4, 32,5, 67,4 ,2]
-lst.sort(reverse=True)
-print(lst[2])
+lst = ["salom", "dunyo", "nima", "gapla"]
+max=lst[0]
+for i in lst:
+    if len(max)<len(i):
+        max=i
+print(max)
